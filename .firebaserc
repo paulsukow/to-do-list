@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "to-do-list-9850c": {
+      "hosting": {
+        "app": [
+          "to-do-list-9850c"
+        ]
+      }
+    }
+  }
+}
