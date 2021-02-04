@@ -1,20 +1,20 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { NgModule } from '@angular/core'
+import { CommonModule } from '@angular/common'
+import { FormsModule } from '@angular/forms'
 
-import { IonicModule } from '@ionic/angular';
+import { IonicModule } from '@ionic/angular'
 
-import { TodoPageRoutingModule } from './todo-routing.module';
+import { TodoPageRoutingModule } from './todo-routing.module'
 
-import { TodoPage } from './todo.page';
+import { TodoPage } from './todo.page'
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    TodoPageRoutingModule
+    TodoPageRoutingModule,
   ],
-  declarations: [TodoPage]
+  declarations: [TodoPage],
 })
 export class TodoPageModule {}
